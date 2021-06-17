@@ -1,9 +1,11 @@
+import React from "react";
 import "./App.css";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
     <div>
-      <h1>Covid Tracker App</h1>
+      <NavBar />
     </div>
   );
 }
